@@ -124,13 +124,13 @@ address {
 }
 
 section {
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
 }
 
 article {
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
 }
 
 h1,
@@ -182,11 +182,29 @@ img {
   display: block;
   border-radius: 12px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 picture img {
   width: 100%;
   max-height: 500px;
+  object-fit: cover;
+}
+
+.img-equipo {
+  width: 100%;
+  max-width: 950px;
+  height: auto;
+  aspect-ratio: 950 / 350;
+  object-fit: cover;
+  margin-inline: auto;
+}
+
+article img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
 }
 
@@ -340,7 +358,7 @@ footer {
   }
 
   section {
-    padding: 1.35rem;
+    padding: 1.75rem;
   }
 
   form {
@@ -364,11 +382,11 @@ footer {
 
 @media (min-width: 1024px) {
   section {
-    padding: 1.6rem;
+    padding: 2rem;
   }
 
   main > section:first-child {
-    padding: 2rem;
+    padding: 2.5rem;
   }
 
   .team-grid {
